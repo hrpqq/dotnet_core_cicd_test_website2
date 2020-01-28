@@ -1,0 +1,11 @@
+D:\netcore_prjs\console\bin\Debug\netcoreapp3.0\console.exe
+D:\netcore_prjs\console\bin\Debug\netcoreapp3.0\console.deps.json
+D:\netcore_prjs\console\bin\Debug\netcoreapp3.0\console.runtimeconfig.json
+D:\netcore_prjs\console\bin\Debug\netcoreapp3.0\console.runtimeconfig.dev.json
+D:\netcore_prjs\console\bin\Debug\netcoreapp3.0\console.dll
+D:\netcore_prjs\console\bin\Debug\netcoreapp3.0\console.pdb
+D:\netcore_prjs\console\obj\Debug\netcoreapp3.0\console.csprojAssemblyReference.cache
+D:\netcore_prjs\console\obj\Debug\netcoreapp3.0\console.AssemblyInfoInputs.cache
+D:\netcore_prjs\console\obj\Debug\netcoreapp3.0\console.AssemblyInfo.cs
+D:\netcore_prjs\console\obj\Debug\netcoreapp3.0\console.dll
+D:\netcore_prjs\console\obj\Debug\netcoreapp3.0\console.pdb
