@@ -28,5 +28,5 @@ deploy:
         password: hrpqq19850218
         registry: "https://registry.hub.docker.com"
         repository: hrpqq/dotnet_core_cicd_test_website2
-        username: $sshrpqq
+        username: $hrpqq
 no-response-timeout: 10
