@@ -1,0 +1,32 @@
+--- 
+box: "micorsoft/dotnet:3.1.0-sdk"
+build: 
+  steps: 
+    - 
+      script: 
+        code: "dotnet restore\n"
+        name: restore
+    - 
+      script: 
+        code: "dotnet build\n"
+        name: build
+    - 
+      script: 
+        code: "dotnet publish -0 publish\n"
+        name: publish
+    - 
+      script: 
+        code: |
+            cp -r . $WERCKER_OUTPUT_DIR/app
+            cd $WERCKER_OUTPUT_DIR/app
+        name: "copy binary"
+deploy: 
+  steps: 
+    - 
+      internal/docker-push: 
+        entrypoint: /pipeline/source/app/docker_entrypoint.sh
+        password: hrpqq19850218
+        registry: "https://registry.hub.docker.com"
+        repository: hrpqq/dotnet_core_cicd_test_website2
+        username: $sshrpqq
+no-response-timeout: 10
